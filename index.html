@@ -1,0 +1,561 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <style>
+        .svg {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .heading-font h1 {
+            font-family: 'Bebas Neue', cursive;
+            font-size: 3rem;
+        }
+
+        /* 
+        .footer-links a {
+            color: white;
+        }
+
+        .footer-links a:hover {
+            color: #00a8ff;
+        } */
+
+        a {
+            color: white;
+        }
+
+        a:hover {
+            color: #00a8ff;
+        }
+
+        /* Carousel Starts */
+        @media (max-width: 768px) {
+            .carousel-inner .carousel-item>div {
+                display: none;
+            }
+
+            .carousel-inner .carousel-item>div:first-child {
+                display: block;
+            }
+        }
+
+        .carousel-inner .carousel-item.active,
+        .carousel-inner .carousel-item-next,
+        .carousel-inner .carousel-item-prev {
+            display: flex;
+        }
+
+        /* display 3 */
+        @media (min-width: 768px) {
+
+            .carousel-inner .carousel-item-right.active,
+            .carousel-inner .carousel-item-next {
+                transform: translateX(33.333%);
+            }
+
+            .carousel-inner .carousel-item-left.active,
+            .carousel-inner .carousel-item-prev {
+                transform: translateX(-33.333%);
+            }
+        }
+
+        .carousel-inner .carousel-item-right,
+        .carousel-inner .carousel-item-left {
+            transform: translateX(0);
+        }
+    </style>
+</head>
+
+<body style="background-color: #1e272e ;">
+
+    <!-- Header with svg -->
+    <div class="svg" style="background-color: #2f3235; color: white">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+                <a class="navbar-brand text-white" href="#">HighFlow Lithium</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Products
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Feedback</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6 heading-font">
+                    <h1>Lithium Ion</h1>
+                    <h1>Batteries for your</h1>
+                    <h1 style="color: #00a8ff;">Golf Cart</h1>
+                    <p class="mt-5">
+                        We have energy storage solutions like Lithium-Ion Batteries, Lead
+                        Acid Batteries, Lead & Allied products & Solar solutions that can
+                        power your devices on the go.
+                    </p>
+                    <button class="btn btn-lg mt-4 text-white" style="background-color: #00a8ff;">Ordre Now</button>
+                </div>
+                <div class="col-md-6">
+                    <button class="btn btn-secondary disable btn-lg" disabled>Long Lasting</button>
+                    <img class="img-fluid" src="images/2.png" alt="">
+                    <button class="btn btn-secondary disable btn-lg float-right" style="margin-top: -40px;"
+                        disabled>Heavy Duty</button>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#1e272e" fill-opacity="1"
+                d="M0,64L120,106.7C240,149,480,235,720,234.7C960,235,1200,149,1320,106.7L1440,64L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
+            </path>
+        </svg>
+    </div>
+    <!-- /Header with svg -->
+
+    <!-- Features -->
+    <div class="container text-white">
+        <div class="row">
+            <div class="col-md-6 offset-md-3 text-center mb-5">
+                <h2 class="mb-3">Features</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio saepe
+                    reprehenderit
+                    at
+                    nesciunt in deserunt dolorum perferendis voluptates perspiciatis asperiores?
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-6 offset-md-3 mb-2">
+                        <div class="card bg-secondary text-center p-2">
+                            <h4 class="card-title">Heavy Duty</h4>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi amet
+                                tempora necessitatibus illo hic porro.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-6 offset-md-3 mb-2">
+                        <div class="card bg-secondary text-center p-2">
+                            <h4 class="card-title">Long Lasting</h4>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi amet
+                                tempora necessitatibus illo hic porro.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 offset-md-3" style="margin-top: -80px;">
+                <img class="img-fluid" src="images/3.png" alt="">
+            </div>
+        </div>
+        <div class="row" style="margin-top: -20px;">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-6 offset-md-3 mb-2">
+                        <div class="card bg-secondary text-center p-2">
+                            <h4 class="card-title">2 Years Warranty</h4>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi amet
+                                tempora necessitatibus illo hic porro.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-6 offset-md-3 mb-2">
+                        <div class="card bg-secondary text-center p-2">
+                            <h4 class="card-title">7 Days Replacement</h4>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi amet
+                                tempora necessitatibus illo hic porro.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Features -->
+
+    <!-- different variants -->
+    <div class="container text-white mt-5">
+        <div class="row">
+            <div class="col-md-6 offset-md-3 text-center mb-5">
+                <h2 class="mb-3">Different Variants</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio saepe
+                    reprehenderit
+                    at
+                    nesciunt in deserunt dolorum perferendis voluptates perspiciatis asperiores?
+                </p>
+            </div>
+        </div>
+
+        <!-- Carousel Starts -->
+        <div class="row mx-auto my-auto">
+            <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+                <div class="carousel-inner w-100" role="listbox">
+                    <div class="carousel-item active">
+                        <div class="col-md-3">
+                            <div class="card bg-secondary p-3">
+                                <h3 class="card-title mt-3">60 Vol</h3>
+                                <h1 style="margin-top: -20px; color: #00a8ff;font-family: 'Bebas Neue', cursive;"
+                                    class="card-title display-4">100 AH</h1>
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi
+                                    amet
+                                    tempora necessitatibus illo hic porro.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card bg-secondary p-3">
+                                <h3 class="card-title mt-3">60 Vol</h3>
+                                <h1 style="margin-top: -20px; color: #00a8ff;font-family: 'Bebas Neue', cursive;"
+                                    class="card-title display-4">110 AH</h1>
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi
+                                    amet
+                                    tempora necessitatibus illo hic porro.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card bg-secondary p-3">
+                                <h3 class="card-title mt-3">60 Vol</h3>
+                                <h1 style="margin-top: -20px; color: #00a8ff;font-family: 'Bebas Neue', cursive;"
+                                    class="card-title display-4">120 AH</h1>
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi
+                                    amet
+                                    tempora necessitatibus illo hic porro.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card bg-secondary p-3">
+                                <h3 class="card-title mt-3">60 Vol</h3>
+                                <h1 style="margin-top: -20px; color: #00a8ff;font-family: 'Bebas Neue', cursive;"
+                                    class="card-title display-4">130 AH</h1>
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi
+                                    amet
+                                    tempora necessitatibus illo hic porro.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card bg-secondary p-3">
+                                <h3 class="card-title mt-3">60 Vol</h3>
+                                <h1 style="margin-top: -20px; color: #00a8ff;font-family: 'Bebas Neue', cursive;"
+                                    class="card-title display-4">140 AH</h1>
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi
+                                    amet
+                                    tempora necessitatibus illo hic porro.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card bg-secondary p-3">
+                                <h3 class="card-title mt-3">60 Vol</h3>
+                                <h1 style="margin-top: -20px; color: #00a8ff;font-family: 'Bebas Neue', cursive;"
+                                    class="card-title display-4">150 AH</h1>
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi
+                                    amet
+                                    tempora necessitatibus illo hic porro.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card bg-secondary p-3">
+                                <h3 class="card-title mt-3">60 Vol</h3>
+                                <h1 style="margin-top: -20px; color: #00a8ff;font-family: 'Bebas Neue', cursive;"
+                                    class="card-title display-4">160 AH</h1>
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi
+                                    amet
+                                    tempora necessitatibus illo hic porro.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card bg-secondary p-3">
+                                <h3 class="card-title mt-3">60 Vol</h3>
+                                <h1 style="margin-top: -20px; color: #00a8ff;font-family: 'Bebas Neue', cursive;"
+                                    class="card-title display-4">170 AH</h1>
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi
+                                    amet
+                                    tempora necessitatibus illo hic porro.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card bg-secondary p-3">
+                                <h3 class="card-title mt-3">60 Vol</h3>
+                                <h1 style="margin-top: -20px; color: #00a8ff;font-family: 'Bebas Neue', cursive;"
+                                    class="card-title display-4">180 AH</h1>
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi
+                                    amet
+                                    tempora necessitatibus illo hic porro.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card bg-secondary p-3">
+                                <h3 class="card-title mt-3">60 Vol</h3>
+                                <h1 style="margin-top: -20px; color: #00a8ff;font-family: 'Bebas Neue', cursive;"
+                                    class="card-title display-4">190 AH</h1>
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi
+                                    amet
+                                    tempora necessitatibus illo hic porro.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle"
+                        aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next w-auto" href="#recipeCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon bg-dark border border-dark rounded-circle"
+                        aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <!-- Carousel Ends -->
+    </div>
+    <!-- /different variants -->
+
+    <!-- Download Specs -->
+    <div class="container-fluid mt-5" style="background-color: #2f3235;">
+        <div class="row">
+            <div class="col-md-6 text-white mt-5">
+                <h1 class="mt-5 mb-2">Download All Variants Specs</h1>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                    Ipsum has been the industry's standard.
+                </p>
+                <button class="btn btn-lg mt-4 text-white" style="background-color: #00a8ff;">Download Specs</button>
+            </div>
+            <div class="col-md-6">
+                <img class="img-fluid" src="images/3.png" alt="" width="400px" height="300px"
+                    style="margin-left: 50px;">
+            </div>
+        </div>
+    </div>
+    <!-- /Download Specs -->
+
+
+    <!-- Other Products -->
+    <div class="container text-white mt-5">
+        <div class="row">
+            <div class="col-md-6 offset-md-3 text-center mb-5">
+                <h2 class="mb-3">Other Products We Have</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio saepe
+                    reprehenderit
+                    at
+                    nesciunt in deserunt dolorum perferendis voluptates perspiciatis asperiores?
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mb-2">
+                <div class="card bg-secondary" style="width: 18rem;">
+                    <img src="images/3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-2">
+                <div class="card bg-secondary" style="width: 18rem;">
+                    <img src="images/3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-2">
+                <div class="card bg-secondary" style="width: 18rem;">
+                    <img src="images/3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Other Products -->
+
+    <svg class="mt-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200">
+        <path fill="#2f3235" fill-opacity="1"
+            d="M0,160L48,154.7C96,149,192,139,288,112C384,85,480,43,576,64C672,85,768,171,864,176C960,181,1056,107,1152,74.7C1248,43,1344,53,1392,58.7L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+        </path>
+    </svg>
+
+    <!-- Footer -->
+    <div class="container-fluid" style="background-color: #2f3235; ">
+        <div class="container text-white">
+            <div class="row">
+                <div class="col-md-3 mt-5">
+                    <h3 class="mb-3">HighFlow Lithium</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde soluta eos explicabo possimus sint
+                        impedit?
+                    </p>
+                </div>
+                <div class="col-md-3 mt-5 footer-links text-center">
+                    <h4 class="mb-3">Quick Link</h4>
+                    <p class="my-2">
+                        <a href="#">Home</a>
+                    </p>
+                    <p class="my-2">
+                        <a href="#">Products</a>
+                    </p>
+                    <p class="my-2">
+                        <a href="#">Feedback</a>
+                    </p>
+                    <p class="my-2">
+                        <a href="#">About Us</a>
+                    </p>
+                    <p class="my-2">
+                        <a href="#">Contact</a>
+                    </p>
+                </div>
+                <div class="col-md-3 mt-5 footer-links">
+                    <h4 class="mb-3">Contact Information</h4>
+
+                    <p class="my-3">
+                        Official Address: Your Street address
+                        here.
+                    </p>
+                    <p class="my-3">
+                        Call Us: +000 123 456 789
+                    </p>
+                    <p class="my-3">
+                        Email Address: yourname@company.com
+                    </p>
+                </div>
+                <div class="col-md-3 mt-5 footer-links">
+                    <h4 class="mb-3">Follow Us</h4>
+                    <a href="">
+                        <span><i class="fab fa-facebook-f"></i></span>
+                    </a>
+                    <a href="">
+                        <span class="ml-3"><i class="fab fa-instagram"></i></span>
+                    </a>
+                    <a href="">
+                        <span class="ml-3"><i class="fab fa-youtube"></i></span>
+                    </a>
+                </div>
+                <hr style="width:100%;height:2px;border-width:0;color:#00a8ff;background-color:#00a8ff">
+                <div class="col-md-6">
+                    <p>
+                        2021 Copyright. All rights reserved
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <p class="float-right">
+                        Made With &#10084;&#65039; CreativeWork007
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Footer -->
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <!-- Carousel Starts -->
+    <script>
+        $('#recipeCarousel').carousel({
+            interval: 4000
+        })
+
+        $('.carousel .carousel-item').each(function () {
+            var minPerSlide = 3;
+            var next = $(this).next();
+            if (!next.length) {
+                next = $(this).siblings(':first');
+            }
+            next.children(':first-child').clone().appendTo($(this));
+
+            for (var i = 0; i < minPerSlide; i++) {
+                next = next.next();
+                if (!next.length) {
+                    next = $(this).siblings(':first');
+                }
+
+                next.children(':first-child').clone().appendTo($(this));
+            }
+        });
+    </script>
+</body>
+
+</html>
